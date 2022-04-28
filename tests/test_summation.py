@@ -5,9 +5,9 @@ from module_summation import do_summation
 class TestSummation(unittest.TestCase):
     def test_summation(self):
         # ------------- PREPARE -----
-        a = 6
-        b = 7
-        expected_result = 13
+        a = 8
+        b = 6
+        expected_result = 14
 
         # ---------- EXECUTE ---------
         result = do_summation(a, b)
