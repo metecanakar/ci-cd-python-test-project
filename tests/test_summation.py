@@ -1,6 +1,7 @@
 import unittest
 from module_summation import do_summation
 
+
 class TestSummation(unittest.TestCase):
     def test_summation(self):
         # ------------- PREPARE -----
@@ -11,4 +12,5 @@ class TestSummation(unittest.TestCase):
         # ---------- EXECUTE ---------
         result = do_summation(a, b)
 
+        # ---------- TEST ---------
         self.assertEqual(expected_result, result)
